@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="cake.css" />
+  <!-- Bootstrap Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="icon" href="img/flowers.png" type="image/x-icon" />
+  <title>For You, Anissa SAP!</title>
+</head>
+
+<body>
+  <div class="night"></div>
+
+  <canvas id="canvas"></canvas>
+  <div id="boxwrap" class="boxwrap">
+    <div class="greetings-wrap">
+      <div class="greetingss">
+        <span>H</span>
+        <span>A</span>
+        <span>P</span>
+        <span>P</span>
+        <span>Y &nbsp;</span>
+        <span>B</span>
+        <span>I</span>
+        <span>R</span>
+        <span>T</span>
+        <span>H</span>
+        <span>D</span>
+        <span>A</span>
+        <span>Y</span>
+        <br />
+        <span>N</span>
+        <span>O</span>
+        <span>V</span>
+        <span>I &nbsp;</span>
+        <span>R</span>
+        <span>A</span>
+        <span>H</span>
+        <span>M</span>
+        <span>A</span>
+        <span>D</span>
+        <span>H</span>
+        <span>A</span>
+        <span>N</span>
+        <span>I</span>
+      </div>
+      <div>
+        <p class="wishh">
+          "Forget the past, it is gone. Do not think of the future, it has
+          not come. <br />But live in the present because it's a gift and
+          that's why it's called the present. <br />Happy birthday🌻."
+        </p>
+        <p class="note">note: Pencet Kue nya ya~</p>
+      </div>
+    </div>
+    <div class="button">
+      <a href="greetings.html">
+        <div class="cake">
+          <div class="plate"></div>
+          <div class="layer layer-bottom"></div>
+          <div class="layer layer-middle"></div>
+          <div class="layer layer-top"></div>
+          <div class="icing"></div>
+          <div class="drip drip1"></div>
+          <div class="drip drip2"></div>
+          <div class="drip drip3"></div>
+          <div class="candle">
+            <div class="flame"></div>
+          </div>
+        </div>
+      </a>
+    </div>
+  </div>
+  </div>
+  <div id="audio-container">
+    <audio id="song" autoplay loop>
+      <source src="audio/duvet.mp3" type="audio/mp3" />
+    </audio>
+
+    <div class="audio-icon-wrapper" style="display: none">
+      <i class="bi bi-disc"></i>
+    </div>
+  </div>
+  <script>
+    const rootElement = document.querySelector(":root");
+    const audioIconWrapper = document.querySelector(".audio-icon-wrapper");
+    const audioIcon = document.querySelector(".audio-icon-wrapper i");
+    const song = document.querySelector("#song");
+    let isPlaying = true;
+
+    playAudio();
+
+    function playAudio() {
+      song.volume = 0.5;
+      audioIconWrapper.style.display = "flex";
+      song.play();
+      isPlaying = false;
+    }
+
+    audioIconWrapper.onclick = function () {
+      if (isPlaying) {
+        song.pause();
+        audioIcon.classList.remove("bi-disc");
+        audioIcon.classList.add("bi-pause-circle");
+      } else {
+        song.play();
+        audioIcon.classList.add("bi-disc");
+        audioIcon.classList.remove("bi-pause-circle");
+      }
+
+      isPlaying = !isPlaying;
+    };
+  </script>
+</body>
+
+</html>

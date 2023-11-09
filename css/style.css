@@ -1,0 +1,99 @@
+:root {
+  --or: #ffa500;
+  --bg: #0a0a0a;
+  --shadow: 0 2px 2px rgb(0 0 0 / 0.5);
+}
+
+body {
+  font-size: 1.2rem;
+  font-family: "Work Sans", sans-serif;
+  min-height: 990px;
+  background-image: url("../img/bg3.jpg");
+  background-size: cover;
+}
+
+.home {
+  width: 100;
+  min-height: 100vh;
+  margin-top: -6rem;
+  padding-top: 15rem;
+  padding-bottom: 5rem;
+}
+
+.home h2 {
+  text-shadow: 2px 2px 4px #000000;
+  color: var(--or);
+  font-family: "Sacramento";
+  font-size: 6rem;
+  font-weight: bold;
+}
+
+.home h3 {
+  color: white;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+.home p {
+  font-size: 1.1rem;
+  color: white;
+}
+
+.home .couple {
+  margin-top: 100px;
+}
+
+.home .couple h3 {
+  font-family: "Sacramento";
+  font-size: 2.4rem;
+  color: var(--or);
+  text-shadow: 2px 2px 4px #000000;
+}
+
+.home .couple img {
+  width: 100%;
+}
+
+.home .heart {
+  width: 50px;
+  height: 50px;
+  background-color: white;
+  display: flex;
+  border-radius: 50%;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%) translateY(240px);
+}
+
+.home .heart i {
+  margin: auto;
+  color: var(--or);
+}
+
+.home .pantun p {
+  font-size: 1.1rem;
+  color: white;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+.audio-icon-wrapper {
+  width: 4rem;
+  height: 4rem;
+  font-size: 4rem;
+  position: fixed;
+  bottom: 2.5rem;
+  right: 2rem;
+  cursor: pointer;
+  color: var(--or);
+  opacity: 0.5;
+  mix-blend-mode: difference;
+  animation: rotating 4s linear infinite;
+  transform-origin: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 0;
+}
