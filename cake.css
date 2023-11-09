@@ -25,35 +25,35 @@ body {
 
 .greetingss {
   color: azure;
-  font-size: 60px;
+  font-size: 10px;
   margin-top: 50px;
 }
 
 /* Media query untuk layar tablet dalam orientasi landscape tablet */
 @media screen and (min-width: 768px) and (max-width: 1023px) and (orientation: portrait) {
   .greetingss {
-    font-size: 50px; /* Ukuran font untuk layar tablet landscape */
+    font-size: 10px; /* Ukuran font untuk layar tablet landscape */
   }
 }
 
 /* Media query untuk layar smartphone dalam orientasi landscape hp */
 @media screen and (min-width: 480px) and (max-width: 767px) and (orientation: landscape) {
   .greetingss {
-    font-size: 32px; /* Ukuran font untuk layar smartphone landscape */
+    font-size: 12px; /* Ukuran font untuk layar smartphone landscape */
   }
 }
 
 /* Media query untuk layar smartphone dalam orientasi portrait */
 @media screen and (min-width: 320px) and (max-width: 479px) and (orientation: portrait) {
   .greetingss {
-    font-size: 22px; /* Ukuran font untuk layar smartphone portrait */
+    font-size: 12px; /* Ukuran font untuk layar smartphone portrait */
   }
 }
 
 /* Media query untuk layar smartphone dalam orientasi portrait */
 @media screen and (max-width: 319px) and (orientation: portrait) {
   .greetingss {
-    font-size: 19px; /* Ukuran font untuk layar smartphone portrait */
+    font-size: 10px; /* Ukuran font untuk layar smartphone portrait */
   }
 }
 
