@@ -529,9 +529,7 @@ body {
   .drip2 {
     top: 69px;
     left: 181px;
-    transform: skewY(-15deg);
-    height: 48px;
-    width: 40px; /* Ukuran font untuk layar tablet landscape */
+    transform: skewY(-15deg); /* Ukuran font untuk layar tablet landscape */
   }
 }
 
@@ -540,9 +538,7 @@ body {
   .drip2 {
     top: 69px;
     left: 181px;
-    transform: skewY(-15deg);
-    height: 48px;
-    width: 40px; /* Ukuran font untuk layar smartphone landscape */
+    transform: skewY(-15deg); /* Ukuran font untuk layar smartphone landscape */
   }
 }
 
@@ -551,9 +547,7 @@ body {
   .drip2 {
     top: 69px;
     left: 181px;
-    transform: skewY(-15deg);
-    height: 48px;
-    width: 40px; /* Ukuran font untuk layar smartphone portrait */
+    transform: skewY(-15deg); /* Ukuran font untuk layar smartphone portrait */
   }
 }
 
@@ -562,9 +556,7 @@ body {
   .drip2 {
     top: 22px;
     left: 67px;
-    transform: skewY(-20deg);
-    height: 28px;
-    width: 15px; /* Ukuran font untuk layar smartphone portrait */
+    transform: skewY(-20deg); /* Ukuran font untuk layar smartphone portrait */
   }
 }
 
@@ -581,8 +573,7 @@ body {
   .drip3 {
     top: 54px;
     left: 90px;
-    width: 80px;
-    height: 20px; /* Ukuran font untuk layar tablet landscape */
+    width: 80px; /* Ukuran font untuk layar tablet landscape */
   }
 }
 
@@ -591,8 +582,7 @@ body {
   .drip3 {
     top: 54px;
     left: 90px;
-    width: 80px;
-    height: 20px; /* Ukuran font untuk layar smartphone landscape */
+    width: 80px; /* Ukuran font untuk layar smartphone landscape */
   }
 }
 
@@ -601,8 +591,7 @@ body {
   .drip3 {
     top: 54px;
     left: 90px;
-    width: 80px;
-    height: 20px; /* Ukuran font untuk layar smartphone portrait */
+    width: 80px; /* Ukuran font untuk layar smartphone portrait */
   }
 }
 
@@ -611,8 +600,7 @@ body {
   .drip3 {
     top: 28px;
     left: 31px;
-    width: 30px;
-    height: 18px; /* Ukuran font untuk layar smartphone portrait */
+    width: 30px; /* Ukuran font untuk layar smartphone portrait */
   }
 }
 
