@@ -46,7 +46,7 @@ body {
 /* Media query untuk layar smartphone dalam orientasi portrait */
 @media screen and (min-width: 320px) and (max-width: 479px) and (orientation: portrait) {
   .greetingss {
-    font-size: 22px; /* Ukuran font untuk layar smartphone portrait */
+    font-size: 28px; /* Ukuran font untuk layar smartphone portrait */
   }
 }
 
@@ -305,21 +305,21 @@ body {
 /* Media query untuk layar smartphone dalam orientasi landscape hp */
 @media screen and (min-width: 480px) and (max-width: 767px) and (orientation: landscape) {
   .wishh {
-    font-size: 10px; /* Ukuran font untuk layar smartphone landscape */
+    font-size: 12px; /* Ukuran font untuk layar smartphone landscape */
   }
 }
 
 /* Media query untuk layar smartphone dalam orientasi portrait */
 @media screen and (min-width: 320px) and (max-width: 450px) and (orientation: portrait) {
   .wishh {
-    font-size: 7px; /* Ukuran font untuk layar smartphone portrait */
+    font-size: 10px; /* Ukuran font untuk layar smartphone portrait */
   }
 }
 
 /* Media query untuk layar smartphone dalam orientasi portrait */
 @media screen and (max-width: 319px) and (orientation: portrait) {
   .wishh {
-    font-size: 6px; /* Ukuran font untuk layar smartphone portrait */
+    font-size: 8px; /* Ukuran font untuk layar smartphone portrait */
   }
 }
 
