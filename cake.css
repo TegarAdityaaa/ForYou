@@ -46,7 +46,7 @@ body {
 /* Media query untuk layar smartphone dalam orientasi portrait */
 @media screen and (min-width: 320px) and (max-width: 479px) and (orientation: portrait) {
   .greetingss {
-    font-size: 28px; /* Ukuran font untuk layar smartphone portrait */
+    font-size: 22x; /* Ukuran font untuk layar smartphone portrait */
   }
 }
 
@@ -122,6 +122,46 @@ body {
   margin-left: -125px;
 }
 
+/* Media query untuk layar tablet dalam orientasi landscape tablet */
+@media screen and (min-width: 768px) and (max-width: 1023px) and (orientation: portrait) {
+  .cake {
+    top: 50%;
+    left: 50%;
+    width: 250px;
+    height: 100px; /* Ukuran font untuk layar tablet landscape */
+  }
+}
+
+/* Media query untuk layar smartphone dalam orientasi landscape hp */
+@media screen and (min-width: 480px) and (max-width: 767px) and (orientation: landscape) {
+  .cake {
+    top: 50%;
+    left: 50%;
+    width: 250px;
+    height: 100px; /* Ukuran font untuk layar smartphone landscape */
+  }
+}
+
+/* Media query untuk layar smartphone dalam orientasi portrait */
+@media screen and (min-width: 320px) and (max-width: 479px) and (orientation: portrait) {
+  .cake {
+    top: 50%;
+    left: 50%;
+    width: 250px;
+    height: 100px; /* Ukuran font untuk layar smartphone portrait */
+  }
+}
+
+/* Media query untuk layar smartphone dalam orientasi portrait */
+@media screen and (max-width: 319px) {
+  .cake {
+    top: 22%;
+    left: 75%;
+    width: 90px;
+    height: 83px; /* Ukuran font untuk layar smartphone portrait */
+  }
+}
+
 .plate {
   width: 270px;
   height: 110px;
@@ -131,6 +171,38 @@ body {
   background-color: #ccc;
   border-radius: 50%;
   box-shadow: 0 2px 0 #b3b3b3, 0 4px 0 #b3b3b3, 0 5px 40px rgba(0, 0, 0, 0.5);
+}
+
+/* Media query untuk layar tablet dalam orientasi landscape tablet */
+@media screen and (min-width: 768px) and (max-width: 1023px) and (orientation: portrait) {
+  .plate {
+    width: 250px;
+    height: 100px; /* Ukuran font untuk layar tablet landscape */
+  }
+}
+
+/* Media query untuk layar smartphone dalam orientasi landscape hp */
+@media screen and (min-width: 480px) and (max-width: 767px) and (orientation: landscape) {
+  .plate {
+    width: 250px;
+    height: 100px; /* Ukuran font untuk layar smartphone landscape */
+  }
+}
+
+/* Media query untuk layar smartphone dalam orientasi portrait */
+@media screen and (min-width: 320px) and (max-width: 479px) and (orientation: portrait) {
+  .plate {
+    width: 250px;
+    height: 100px; /* Ukuran font untuk layar smartphone portrait */
+  }
+}
+
+/* Media query untuk layar smartphone dalam orientasi portrait */
+@media screen and (max-width: 319px) {
+  .plate {
+    width: 110px;
+    height: 40px; /* Ukuran font untuk layar smartphone portrait */
+  }
 }
 
 .cake > * {
@@ -151,26 +223,195 @@ body {
     0 26px 0px #2a1d09, 0 28px 0px #291d09, 0 30px 0px #281c09;
 }
 
+/* Media query untuk layar tablet dalam orientasi landscape tablet */
+@media screen and (min-width: 768px) and (max-width: 1023px) and (orientation: portrait) {
+  .layer {
+    width: 250px;
+    height: 100px;
+    box-shadow: 0 2px 0px #6a4b18, 0 4px 0px #33240b, 0 6px 0px #32230b,
+      0 8px 0px #31230b, 0 10px 0px #30220b, 0 12px 0px #2f220b,
+      0 14px 0px #2f210a, 0 16px 0px #2e200a, 0 18px 0px #2d200a,
+      0 20px 0px #2c1f0a, 0 22px 0px #2b1f0a, 0 24px 0px #2a1e09,
+      0 26px 0px #2a1d09, 0 28px 0px #291d09, 0 30px 0px #281c09; /* Ukuran font untuk layar tablet landscape */
+  }
+}
+
+/* Media query untuk layar smartphone dalam orientasi landscape hp */
+@media screen and (min-width: 480px) and (max-width: 767px) and (orientation: landscape) {
+  .layer {
+    width: 250px;
+    height: 100px;
+    box-shadow: 0 2px 0px #6a4b18, 0 4px 0px #33240b, 0 6px 0px #32230b,
+      0 8px 0px #31230b, 0 10px 0px #30220b, 0 12px 0px #2f220b,
+      0 14px 0px #2f210a, 0 16px 0px #2e200a, 0 18px 0px #2d200a,
+      0 20px 0px #2c1f0a, 0 22px 0px #2b1f0a, 0 24px 0px #2a1e09,
+      0 26px 0px #2a1d09, 0 28px 0px #291d09, 0 30px 0px #281c09; /* Ukuran font untuk layar smartphone landscape */
+  }
+}
+
+/* Media query untuk layar smartphone dalam orientasi portrait */
+@media screen and (min-width: 320px) and (max-width: 479px) and (orientation: portrait) {
+  .layer {
+    width: 250px;
+    height: 100px;
+    box-shadow: 0 2px 0px #6a4b18, 0 4px 0px #33240b, 0 6px 0px #32230b,
+      0 8px 0px #31230b, 0 10px 0px #30220b, 0 12px 0px #2f220b,
+      0 14px 0px #2f210a, 0 16px 0px #2e200a, 0 18px 0px #2d200a,
+      0 20px 0px #2c1f0a, 0 22px 0px #2b1f0a, 0 24px 0px #2a1e09,
+      0 26px 0px #2a1d09, 0 28px 0px #291d09, 0 30px 0px #281c09; /* Ukuran font untuk layar smartphone portrait */
+  }
+}
+
+/* Media query untuk layar smartphone dalam orientasi portrait */
+@media screen and (max-width: 319px) {
+  .layer {
+    width: 90px;
+    height: 40px;
+    box-shadow: 0 2px 0px #6a4b18, 0 2px 0px #33240b, 0 2px 0px #32230b,
+      0 2px 0px #31230b, 0 2px 0px #30220b, 0 2px 0px #2f220b, 0 2px 0px #2f210a,
+      0 2px 0px #2e200a, 0 4px 0px #2d200a, 0 6px 0px #2c1f0a, 0 8px 0px #2b1f0a,
+      0 10px 0px #2a1e09, 0 12px 0px #2a1d09, 0 14px 0px #291d09,
+      0 16px 0px #281c09; /* Ukuran font untuk layar smartphone portrait */
+  }
+}
+
 .layer-top {
   top: 0px;
+}
+
+/* Media query untuk layar tablet dalam orientasi landscape tablet */
+@media screen and (min-width: 768px) and (max-width: 1023px) and (orientation: portrait) {
+  .layer-top {
+    top: 0px; /* Ukuran font untuk layar tablet landscape */
+  }
+}
+
+/* Media query untuk layar smartphone dalam orientasi landscape hp */
+@media screen and (min-width: 480px) and (max-width: 767px) and (orientation: landscape) {
+  .layer-top {
+    top: 0px; /* Ukuran font untuk layar smartphone landscape */
+  }
+}
+
+/* Media query untuk layar smartphone dalam orientasi portrait */
+@media screen and (min-width: 320px) and (max-width: 479px) and (orientation: portrait) {
+  .layer-top {
+    top: 0px; /* Ukuran font untuk layar smartphone portrait */
+  }
+}
+
+/* Media query untuk layar smartphone dalam orientasi portrait */
+@media screen and (max-width: 319px) {
+  .layer-top {
+    top: 0px; /* Ukuran font untuk layar smartphone portrait */
+  }
 }
 
 .layer-middle {
   top: 33px;
 }
 
+/* Media query untuk layar tablet dalam orientasi landscape tablet */
+@media screen and (min-width: 768px) and (max-width: 1023px) and (orientation: portrait) {
+  .layer-middle {
+    top: 33px; /* Ukuran font untuk layar tablet landscape */
+  }
+}
+
+/* Media query untuk layar smartphone dalam orientasi landscape hp */
+@media screen and (min-width: 480px) and (max-width: 767px) and (orientation: landscape) {
+  .layer-middle {
+    top: 33px; /* Ukuran font untuk layar smartphone landscape */
+  }
+}
+
+/* Media query untuk layar smartphone dalam orientasi portrait */
+@media screen and (min-width: 320px) and (max-width: 479px) and (orientation: portrait) {
+  .layer-middle {
+    top: 33px; /* Ukuran font untuk layar smartphone portrait */
+  }
+}
+
+/* Media query untuk layar smartphone dalam orientasi portrait */
+@media screen and (max-width: 319px) {
+  .layer-middle {
+    top: 17px; /* Ukuran font untuk layar smartphone portrait */
+  }
+}
+
 .layer-bottom {
   top: 66px;
 }
 
+/* Media query untuk layar tablet dalam orientasi landscape tablet */
+@media screen and (min-width: 768px) and (max-width: 1023px) and (orientation: portrait) {
+  .layer-bottom {
+    top: 66px; /* Ukuran font untuk layar tablet landscape */
+  }
+}
+
+/* Media query untuk layar smartphone dalam orientasi landscape hp */
+@media screen and (min-width: 480px) and (max-width: 767px) and (orientation: landscape) {
+  .layer-bottom {
+    top: 66px; /* Ukuran font untuk layar smartphone landscape */
+  }
+}
+
+/* Media query untuk layar smartphone dalam orientasi portrait */
+@media screen and (min-width: 320px) and (max-width: 479px) and (orientation: portrait) {
+  .layer-bottom {
+    top: 66px; /* Ukuran font untuk layar smartphone portrait */
+  }
+}
+
+/* Media query untuk layar smartphone dalam orientasi portrait */
+@media screen and (max-width: 319px) {
+  .layer-bottom {
+    top: 32px; /* Ukuran font untuk layar smartphone portrait */
+  }
+}
+
 .icing {
   top: 2px;
-  left: 5px;
+  left: 3px;
   background-color: #f0e4d0;
   width: 240px;
   height: 90px;
   border-radius: 50%;
 }
+
+/* Media query untuk layar tablet dalam orientasi landscape tablet */
+@media screen and (min-width: 768px) and (max-width: 1023px) and (orientation: portrait) {
+  .icing {
+    width: 240px;
+    height: 90px; /* Ukuran font untuk layar tablet landscape */
+  }
+}
+
+/* Media query untuk layar smartphone dalam orientasi landscape hp */
+@media screen and (min-width: 480px) and (max-width: 767px) and (orientation: landscape) {
+  .icing {
+    width: 240px;
+    height: 90px; /* Ukuran font untuk layar smartphone landscape */
+  }
+}
+
+/* Media query untuk layar smartphone dalam orientasi portrait */
+@media screen and (min-width: 320px) and (max-width: 479px) and (orientation: portrait) {
+  .icing {
+    width: 240px;
+    height: 90px; /* Ukuran font untuk layar smartphone portrait */
+  }
+}
+
+/* Media query untuk layar smartphone dalam orientasi portrait */
+@media screen and (max-width: 319px) {
+  .icing {
+    width: 85px;
+    height: 36px; /* Ukuran font untuk layar smartphone portrait */
+  }
+}
+
 .icing:before {
   content: "";
   position: absolute;
@@ -193,6 +434,38 @@ body {
   background-color: #f0e4d0;
 }
 
+/* Media query untuk layar tablet dalam orientasi landscape tablet */
+@media screen and (min-width: 768px) and (max-width: 1023px) and (orientation: portrait) {
+  .drip {
+    width: 50px;
+    height: 60px; /* Ukuran font untuk layar tablet landscape */
+  }
+}
+
+/* Media query untuk layar smartphone dalam orientasi landscape hp */
+@media screen and (min-width: 480px) and (max-width: 767px) and (orientation: landscape) {
+  .drip {
+    width: 50px;
+    height: 60px; /* Ukuran font untuk layar smartphone landscape */
+  }
+}
+
+/* Media query untuk layar smartphone dalam orientasi portrait */
+@media screen and (min-width: 320px) and (max-width: 479px) and (orientation: portrait) {
+  .drip {
+    width: 50px;
+    height: 60px; /* Ukuran font untuk layar smartphone portrait */
+  }
+}
+
+/* Media query untuk layar smartphone dalam orientasi portrait */
+@media screen and (max-width: 319px) {
+  .drip {
+    width: 20px;
+    height: 10px; /* Ukuran font untuk layar smartphone portrait */
+  }
+}
+
 .drip1 {
   top: 53px;
   left: 5px;
@@ -201,10 +474,98 @@ body {
   width: 40px;
 }
 
+/* Media query untuk layar tablet dalam orientasi landscape tablet */
+@media screen and (min-width: 768px) and (max-width: 1023px) and (orientation: portrait) {
+  .drip1 {
+    top: 53px;
+    left: 5px;
+    transform: skewY(15deg);
+    height: 48px;
+    width: 40px; /* Ukuran font untuk layar tablet landscape */
+  }
+}
+
+/* Media query untuk layar smartphone dalam orientasi landscape hp */
+@media screen and (min-width: 480px) and (max-width: 767px) and (orientation: landscape) {
+  .drip1 {
+    top: 53px;
+    left: 5px;
+    transform: skewY(15deg);
+    height: 48px;
+    width: 40px; /* Ukuran font untuk layar smartphone landscape */
+  }
+}
+
+/* Media query untuk layar smartphone dalam orientasi portrait */
+@media screen and (min-width: 320px) and (max-width: 479px) and (orientation: portrait) {
+  .drip1 {
+    top: 53px;
+    left: 5px;
+    transform: skewY(15deg);
+    height: 48px;
+    width: 40px; /* Ukuran font untuk layar smartphone portrait */
+  }
+}
+
+/* Media query untuk layar smartphone dalam orientasi portrait */
+@media screen and (max-width: 319px) {
+  .drip1 {
+    top: 22px;
+    left: 3px;
+    transform: skewY(15deg);
+    height: 18px;
+    width: 15px; /* Ukuran font untuk layar smartphone portrait */
+  }
+}
+
 .drip2 {
   top: 69px;
   left: 181px;
   transform: skewY(-15deg);
+}
+
+/* Media query untuk layar tablet dalam orientasi landscape tablet */
+@media screen and (min-width: 768px) and (max-width: 1023px) and (orientation: portrait) {
+  .drip2 {
+    top: 69px;
+    left: 181px;
+    transform: skewY(-15deg);
+    height: 48px;
+    width: 40px; /* Ukuran font untuk layar tablet landscape */
+  }
+}
+
+/* Media query untuk layar smartphone dalam orientasi landscape hp */
+@media screen and (min-width: 480px) and (max-width: 767px) and (orientation: landscape) {
+  .drip2 {
+    top: 69px;
+    left: 181px;
+    transform: skewY(-15deg);
+    height: 48px;
+    width: 40px; /* Ukuran font untuk layar smartphone landscape */
+  }
+}
+
+/* Media query untuk layar smartphone dalam orientasi portrait */
+@media screen and (min-width: 320px) and (max-width: 479px) and (orientation: portrait) {
+  .drip2 {
+    top: 69px;
+    left: 181px;
+    transform: skewY(-15deg);
+    height: 48px;
+    width: 40px; /* Ukuran font untuk layar smartphone portrait */
+  }
+}
+
+/* Media query untuk layar smartphone dalam orientasi portrait */
+@media screen and (max-width: 319px) {
+  .drip2 {
+    top: 22px;
+    left: 67px;
+    transform: skewY(-20deg);
+    height: 28px;
+    width: 15px; /* Ukuran font untuk layar smartphone portrait */
+  }
 }
 
 .drip3 {
@@ -213,6 +574,46 @@ body {
   width: 80px;
   border-bottom-left-radius: 40px;
   border-bottom-right-radius: 40px;
+}
+
+/* Media query untuk layar tablet dalam orientasi landscape tablet */
+@media screen and (min-width: 768px) and (max-width: 1023px) and (orientation: portrait) {
+  .drip3 {
+    top: 54px;
+    left: 90px;
+    width: 80px;
+    height: 20px; /* Ukuran font untuk layar tablet landscape */
+  }
+}
+
+/* Media query untuk layar smartphone dalam orientasi landscape hp */
+@media screen and (min-width: 480px) and (max-width: 767px) and (orientation: landscape) {
+  .drip3 {
+    top: 54px;
+    left: 90px;
+    width: 80px;
+    height: 20px; /* Ukuran font untuk layar smartphone landscape */
+  }
+}
+
+/* Media query untuk layar smartphone dalam orientasi portrait */
+@media screen and (min-width: 320px) and (max-width: 479px) and (orientation: portrait) {
+  .drip3 {
+    top: 54px;
+    left: 90px;
+    width: 80px;
+    height: 20px; /* Ukuran font untuk layar smartphone portrait */
+  }
+}
+
+/* Media query untuk layar smartphone dalam orientasi portrait */
+@media screen and (max-width: 319px) {
+  .drip3 {
+    top: 28px;
+    left: 31px;
+    width: 30px;
+    height: 18px; /* Ukuran font untuk layar smartphone portrait */
+  }
 }
 
 .candle {
@@ -225,13 +626,66 @@ body {
   margin-left: -8px;
   z-index: 10;
 }
+
+/* Media query untuk layar tablet dalam orientasi landscape tablet */
+@media screen and (min-width: 768px) and (max-width: 1023px) and (orientation: portrait) {
+  .candle {
+    width: 16px;
+    height: 50px;
+    border-radius: 8px/4px;
+    top: -20px;
+    left: 50%;
+    margin-left: -8px;
+    z-index: 10; /* Ukuran font untuk layar tablet landscape */
+  }
+}
+
+/* Media query untuk layar smartphone dalam orientasi landscape hp */
+@media screen and (min-width: 480px) and (max-width: 767px) and (orientation: landscape) {
+  .candle {
+    width: 16px;
+    height: 50px;
+    border-radius: 8px/4px;
+    top: -20px;
+    left: 50%;
+    margin-left: -8px;
+    z-index: 10; /* Ukuran font untuk layar smartphone landscape */
+  }
+}
+
+/* Media query untuk layar smartphone dalam orientasi portrait */
+@media screen and (min-width: 320px) and (max-width: 479px) and (orientation: portrait) {
+  .candle {
+    width: 16px;
+    height: 50px;
+    border-radius: 8px/4px;
+    top: -20px;
+    left: 50%;
+    margin-left: -8px;
+    z-index: 10; /* Ukuran font untuk layar smartphone portrait */
+  }
+}
+
+/* Media query untuk layar smartphone dalam orientasi portrait */
+@media screen and (max-width: 319px) {
+  .candle {
+    width: 8px;
+    height: 25px;
+    border-radius: 8px/4px;
+    top: -10px;
+    left: 55%;
+    margin-left: -8px;
+    z-index: 10; /* Ukuran font untuk layar smartphone portrait */
+  }
+}
+
 .candle:before {
   content: "";
   position: absolute;
   top: 0;
   left: 0;
-  width: 16px;
-  height: 8px;
+  width: 8px;
+  height: 4px;
   border-radius: 50%;
   background-color: #ad030f;
 }
@@ -250,6 +704,50 @@ body {
     0 0 60px rgba(255, 165, 0, 0.5), 0 0 80px rgba(255, 165, 0, 0.5);
   transform-origin: 50% 90%;
   animation: flicker 1s ease-in-out alternate infinite;
+}
+
+/* Media query untuk layar tablet dalam orientasi landscape tablet */
+@media screen and (min-width: 768px) and (max-width: 1023px) and (orientation: portrait) {
+  .flame {
+    width: 15px;
+    height: 35px;
+    border-radius: 10px 10px 10px 10px/25px 25px 10px 10px;
+    top: -34px;
+    left: 50%; /* Ukuran font untuk layar tablet landscape */
+  }
+}
+
+/* Media query untuk layar smartphone dalam orientasi landscape hp */
+@media screen and (min-width: 480px) and (max-width: 767px) and (orientation: landscape) {
+  .flame {
+    width: 15px;
+    height: 35px;
+    border-radius: 10px 10px 10px 10px/25px 25px 10px 10px;
+    top: -34px;
+    left: 50%; /* Ukuran font untuk layar smartphone landscape */
+  }
+}
+
+/* Media query untuk layar smartphone dalam orientasi portrait */
+@media screen and (min-width: 320px) and (max-width: 479px) and (orientation: portrait) {
+  .flame {
+    width: 15px;
+    height: 35px;
+    border-radius: 10px 10px 10px 10px/25px 25px 10px 10px;
+    top: -34px;
+    left: 50%; /* Ukuran font untuk layar smartphone portrait */
+  }
+}
+
+/* Media query untuk layar smartphone dalam orientasi portrait */
+@media screen and (max-width: 319px) {
+  .flame {
+    width: 7px;
+    height: 18px;
+    border-radius: 10px 10px 10px 10px/25px 25px 10px 10px;
+    top: -18px;
+    left: 100%; /* Ukuran font untuk layar smartphone portrait */
+  }
 }
 
 @keyframes flicker {
@@ -305,21 +803,21 @@ body {
 /* Media query untuk layar smartphone dalam orientasi landscape hp */
 @media screen and (min-width: 480px) and (max-width: 767px) and (orientation: landscape) {
   .wishh {
-    font-size: 12px; /* Ukuran font untuk layar smartphone landscape */
+    font-size: 10px; /* Ukuran font untuk layar smartphone landscape */
   }
 }
 
 /* Media query untuk layar smartphone dalam orientasi portrait */
 @media screen and (min-width: 320px) and (max-width: 450px) and (orientation: portrait) {
   .wishh {
-    font-size: 10px; /* Ukuran font untuk layar smartphone portrait */
+    font-size: 7px; /* Ukuran font untuk layar smartphone portrait */
   }
 }
 
 /* Media query untuk layar smartphone dalam orientasi portrait */
 @media screen and (max-width: 319px) and (orientation: portrait) {
   .wishh {
-    font-size: 8px; /* Ukuran font untuk layar smartphone portrait */
+    font-size: 6px; /* Ukuran font untuk layar smartphone portrait */
   }
 }
 
